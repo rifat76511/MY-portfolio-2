@@ -46,7 +46,7 @@ header{
     background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
     background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
-    height: 850px;
+    height: 950px;
 }
 nav{
 width:60% ;
@@ -103,13 +103,13 @@ margin-bottom: 5px;
 
     max-width: 584px;
     vertical-align: middle;
-    margin-top: 108.5px;
+    margin-top: -7px;
     margin-right: 60px;
+    height: 800px;
+    width: 584px;
 }
-body{
-    max-width: 1920px;
-    max-height: 945px;
-}
+
+
 .btn-2{
 color: #FD6E0A;
     border: 1px solid #FD6E0A;
@@ -331,7 +331,10 @@ textarea{
 border: none;
     border-radius: 5px;
     margin-bottom: 24px;
-padding: 18px 365px 135px 30px;
+padding: 18px  30px;
 width: 461px;
 height: 180px;
+font-size: 16px;
+line-height: 28px;
+ color: #757575;
 }
