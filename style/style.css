@@ -447,4 +447,10 @@ header {
 #banner .banner-content p {
     font-size: 17px;
 }
+.btn-2 {
+ 
+    padding: 12px 20px;
+    
+    font-size: 20px;
+}
 }
