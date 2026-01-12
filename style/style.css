@@ -194,7 +194,7 @@ nav li a:hover{
     font-size: 35px;
     font-weight:700 ;
     margin-bottom: 30px;
-    |
+    
 }
 #skills .skills-container .section-heading p{
 
@@ -337,4 +337,114 @@ height: 180px;
 font-size: 16px;
 line-height: 28px;
  color: #757575;
+}
+.hide{
+    display: none !important;
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media screen and (max-width:576px) {
+    #skills, #resume{
+        padding-top: 60px;
+    }
+    #resume .section-heading{
+        margin-bottom: 60px;
+    }
+    #skills .skills-container{
+        width: 95%;
+    }
+    #skills .skills-container .section-heading h2 {
+    font-size: 30px;
+    }
+    .section-heading p {
+    color: #757575;
+    font-size: 15px;
+    line-height: 30px;
+}
+.card-section, #about .about-container .about-info, footer .footer-container, #resume .resume-container, nav, #banner{
+    flex-direction: column;
+    
+
+}
+.card-section .card-box{
+    max-width: 100%;
+}
+.card-section .card-box p {
+    max-width: 100%;
+    font-size: 15px;
+}
+
+#about .about-container {
+    width: 100%;
+    padding: 20px;
+}
+#about .about-container .about-info{
+    gap: 40px;
+}
+
+.footer-container form input[type="email"] ,footer .footer-container, textarea, .footer-container form input[type="text"]{
+
+
+    width: 95%;
+    align-items: center;
+}
+.social{
+    text-align: center;
+}
+#resume{
+    width: 80%;
+    text-align: center;
+}
+.btn {
+
+    padding: 12px 20px;
+    
+   
+}
+nav{
+    gap: 20px;
+    
+}
+nav .menu{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+#banner{
+    margin: 20px;
+    gap: 20px;
+}
+#banner .banner-image img {
+    max-width: 584px;
+    margin-top: 120px;
+    margin-right: 0;
+    height: 100%;
+    width: 100%;
+}
+#banner .banner-content h1{
+    font-size: 51px;
+}
+#banner .banner-content{
+    text-align: center;
+}
+#banner .banner-content h2 {
+    font-size: 36px;
+}
+header {
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background:url(../images/header_bg.png), #FFF8F3;
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+.btn-group{
+    justify-content: center;
+}
+#banner .banner-content p {
+    font-size: 17px;
+}
 }
